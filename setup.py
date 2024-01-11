@@ -15,7 +15,7 @@ setup(
   url='https://github.com/barabum0/aiogram_calendar',
   keywords=['Aiogram', 'Telegram', 'Bots', 'Calendar'],
   install_requires=[
-          'aiogram~=3.0.0b7',
+          'aiogram~=3.3.0',
       ],
   classifiers=[
     'Development Status :: 3 - Alpha',
