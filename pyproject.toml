@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "aiogram3_calendar"
-version = "0.2"
+version = "0.2.1"
 description = "Simple Inline Calendar & Date Selection tool for Aiogram Telegram bots"
 authors = ["Roman Poltorabatko (original by Andrew Nikolabay)"]
 license = "MIT"
