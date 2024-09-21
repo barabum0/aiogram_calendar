@@ -33,7 +33,7 @@ class DialogCalendar:
         inline_row = []
         for value in range(year - 2, year + 3):
             inline_row.append(InlineKeyboardButton(
-                text=value,
+                text=str(value),
                 callback_data=build_data("SET-YEAR", value, -1, -1)
             ))
         # nav buttons
@@ -57,7 +57,7 @@ class DialogCalendar:
         inline_row = []
         inline_row.append(InlineKeyboardButton(text=" ", callback_data=ignore_callback))
         inline_row.append(InlineKeyboardButton(
-            text=year,
+            text=str(year),
             callback_data=build_data("START", year, -1, -1)
         ))
         inline_row.append(InlineKeyboardButton(text=" ", callback_data=ignore_callback))
@@ -83,7 +83,7 @@ class DialogCalendar:
         inline_kb = []
         inline_row = []
         inline_row.append(InlineKeyboardButton(
-            text=year,
+            text=str(year),
             callback_data=build_data("START", year, -1, -1)
         ))
         inline_row.append(InlineKeyboardButton(
