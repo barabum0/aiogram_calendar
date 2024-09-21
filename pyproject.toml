@@ -1,0 +1,27 @@
+[tool.poetry]
+name = "aiogram3_calendar"
+version = "0.2"
+description = "Simple Inline Calendar & Date Selection tool for Aiogram Telegram bots"
+authors = ["Roman Poltorabatko (original by Andrew Nikolabay)"]
+license = "MIT"
+readme = "README.md"
+homepage = "https://github.com/barabum0/aiogram_calendar"
+keywords = ["Aiogram", "Telegram", "Bots", "Calendar"]
+classifiers = { "Development Status" = "3 - Alpha", "Intended Audience" = "Developers", "Topic" = "Software Development :: Libraries :: Python Modules", "License" = "OSI Approved :: MIT License", "Programming Language" = [
+    "Python :: 3",
+    "Python :: 3.6",
+    "Python :: 3.7",
+    "Python :: 3.8",
+    "Python :: 3.9",
+    "Python :: 3.10",
+    "Python :: 3.11",
+    "Python :: 3.12"
+] }
+
+[tool.poetry.dependencies]
+python = "^3.12"
+aiogram = "^3.13.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
